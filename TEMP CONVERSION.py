@@ -1,6 +1,6 @@
 convert=str(input("enter the type of conversion you want to perform"))
 if convert=="F to C":
-  F=int(input("enter value of fahrenheit"))
+  F=int(input("Enter value of fahrenheit"))
   print((F - 32) * 5/9,"degree celsius")
 elif convert=="C to F":
   C=int(input("enter value of celsius"))
