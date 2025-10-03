@@ -1,0 +1,8 @@
+print('if number is divisible by 3 youb get fizz if by 5 you get buzz if by both you get fizzbuzz')
+num=int(input('entr number to check divisible by 3 and 5 : '))
+if num%3==0 and num%5==0:
+    print('fizzbuzz')
+elif num%3==0:
+    print('fizz')
+elif num%5==0:
+    print('buzz')
