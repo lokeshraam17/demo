@@ -1,0 +1,11 @@
+number=int(input('enter number to generate fibonacci series : '))
+sum= 0
+i= 1
+while number>0:
+    sum1=sum
+    sum=i
+    i=sum1+i
+    number-=1
+    print(i)                                                                                                                                                                                                  
+
+
